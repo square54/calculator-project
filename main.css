@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+:root {
+  --primary-background-color: #333333;
+  --primary-color: #db29ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  overflow: hidden;
+}
+
+h1 h2 {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 73.5vh;
+}
+
+.container button {
+  padding: 0.1em 0.8em;
+  margin: 0.05em;
+  background-color: white;
+  border: none;
+  border-radius: 0.4em;
+  -webkit-box-shadow: 0px 4px #b1b1b1;
+          box-shadow: 0px 4px #b1b1b1;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.container button:active {
+  background-color: #b1b1b1;
+}
+
+.container .top-calc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 2px solid white;
+  padding: 0em 2em;
+}
+
+.container .top-calc h1 {
+  margin-right: 2em;
+  width: 10em;
+  height: 2em;
+  line-height: 2em;
+  padding-right: 0.3em;
+  text-align: right;
+  background-color: white;
+  border-radius: 0.1em;
+}
+
+.container .bottom-calc {
+  border: 2px solid white;
+  border-top-style: none;
+  padding: 2em 2.32em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container .bottom-calc button {
+  margin: 0.61em;
+}
+
+footer {
+  width: 100vw;
+  background-color: #424242;
+  color: white;
+  padding: 1.5em;
+}
+/*# sourceMappingURL=main.css.map */
